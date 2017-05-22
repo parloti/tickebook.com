@@ -2044,13 +2044,13 @@ body.layout-full {
     width: 14px;
     height: 14px;
     cursor: pointer;
-    background: url(/wp-content/themes/vantage/images/sprites/slide-indicator-inactive.png)
+    background: url(https://parloti.github.io/tickebook.com/images/sprites/slide-indicator-inactive.png)
 }
 .flexslider .flex-control-paging li a.flex-active {
-    background: url(/wp-content/themes/vantage/images/sprites/slide-indicator-active.png)
+    background: url(https://parloti.github.io/tickebook.com/images/sprites/slide-indicator-active.png)
 }
 .flexslider .flex-control-paging li a:hover {
-    background: url(/wp-content/themes/vantage/images/sprites/slide-indicator-inactive.png)
+    background: url(https://parloti.github.io/tickebook.com/images/sprites/slide-indicator-inactive.png)
 }
 .flexslider .flex-direction-nav {
     list-style: none
@@ -2076,11 +2076,11 @@ body.layout-full {
 }
 .flexslider .flex-direction-nav li a.flex-prev {
     left: 0;
-    background: url(/wp-content/themes/vantage/images/sprites/gallery-prev.png)
+    background: url(https://parloti.github.io/tickebook.com/images/sprites/gallery-prev.png)
 }
 .flexslider .flex-direction-nav li a.flex-next {
     right: 0;
-    background: url(/wp-content/themes/vantage/images/sprites/gallery-next.png)
+    background: url(https://parloti.github.io/tickebook.com/images/sprites/gallery-next.png)
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
     .flexslider .flex-direction-nav li a {
@@ -2088,11 +2088,11 @@ body.layout-full {
     }
     .flexslider .flex-direction-nav li a.flex-prev {
         background-size: cover;
-        background-image: url(/wp-content/themes/vantage/images/retina/gallery-prev.png)
+        background-image: url(https://parloti.github.io/tickebook.com/images/retina/gallery-prev.png)
     }
     .flexslider .flex-direction-nav li a.flex-next {
         background-size: cover;
-        background-image: url(/wp-content/themes/vantage/images/retina/gallery-next.png)
+        background-image: url(https://parloti.github.io/tickebook.com/images/retina/gallery-next.png)
     }
 }
 .flexslider:hover .flex-direction-nav li a {
@@ -2102,7 +2102,7 @@ body.layout-full {
     display: inline-block;
     padding: 8px 46px 8px 0;
     font-weight: 700;
-    background: url(/wp-content/themes/vantage/slider/action.png) right center no-repeat
+    background: url(https://parloti.github.io/tickebook.com/slider/action.png) right center no-repeat
 }
 .metaslider .msHtmlOverlay .layer .siteorigin-slider-action-button a {
     font-size: 16px;
@@ -2440,11 +2440,11 @@ body.layout-full {
     width: 5px;
     height: 8px;
     margin-left: 3px;
-    background: url(/wp-content/themes/vantage/images/sprites/more-icon.png) no-repeat
+    background: url(https://parloti.github.io/tickebook.com/images/sprites/more-icon.png) no-repeat
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
     .widget_circleicon-widget .circle-icon-box a.more-button i {
-        background: url(/wp-content/themes/vantage/images/retina/more-icon.png);
+        background: url(https://parloti.github.io/tickebook.com/images/retina/more-icon.png);
         background-size: 5px 8px
     }
 }
@@ -2964,7 +2964,7 @@ body.layout-full {
     width: 242px;
     height: 162px;
     float: left;
-    background: url(/wp-content/themes/vantage/images/carousel-loader.gif) center center no-repeat #f6f6f6;
+    background: url(https://parloti.github.io/tickebook.com/images/carousel-loader.gif) center center no-repeat #f6f6f6;
     margin: 0
 }
 .vantage-grid-loop {
@@ -3487,8 +3487,8 @@ body.layout-full {
 }
 @font-face {
     font-family: vantage-icons;
-    src: url(/wp-content/themes/vantage/icons/vantage-icons.eot);
-    src: url(/wp-content/themes/vantage/icons/vantage-icons.eot?#iefix) format('embedded-opentype'), url(/wp-content/themes/vantage/icons/vantage-icons.woff) format('woff'), url(/wp-content/themes/vantage/icons/vantage-icons.ttf?) format('truetype'), url(/wp-content/themes/vantage/icons/vantage-icons.svg) format('svg');
+    src: url(https://parloti.github.io/tickebook.com/icons/vantage-icons.eot);
+    src: url(https://parloti.github.io/tickebook.com/icons/vantage-icons.eot?#iefix) format('embedded-opentype'), url(https://parloti.github.io/tickebook.com/icons/vantage-icons.woff) format('woff'), url(https://parloti.github.io/tickebook.com/icons/vantage-icons.ttf?) format('truetype'), url(https://parloti.github.io/tickebook.com/icons/vantage-icons.svg) format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -3560,22 +3560,22 @@ span.jwcontrols span button {
 }
 @font-face {
     font-family: avia;
-    src: url(/wp-content/themes/vantage/font/bpg_nino_mtavruli_bold.eot);
-    src: url(/wp-content/themes/vantage/font/bpg_nino_mtavruli_bold.eot) format('embedded-opentype'), url(/wp-content/themes/vantage/font/bpg_nino_mtavruli_bold.woff2) format('woff2'), url(/wp-content/themes/vantage/font/bpg_nino_mtavruli_bold.woff) format('woff'), url(/wp-content/themes/vantage/font/bpg_nino_mtavruli_bold.ttf) format('truetype'), url(/wp-content/themes/vantage/font/bpg_nino_mtavruli_bold.svg#bpg_nino_mtavruli_bold) format('svg')
+    src: url(https://parloti.github.io/tickebook.com/font/bpg_nino_mtavruli_bold.eot);
+    src: url(https://parloti.github.io/tickebook.com/font/bpg_nino_mtavruli_bold.eot) format('embedded-opentype'), url(https://parloti.github.io/tickebook.com/font/bpg_nino_mtavruli_bold.woff2) format('woff2'), url(https://parloti.github.io/tickebook.com/font/bpg_nino_mtavruli_bold.woff) format('woff'), url(https://parloti.github.io/tickebook.com/font/bpg_nino_mtavruli_bold.ttf) format('truetype'), url(https://parloti.github.io/tickebook.com/font/bpg_nino_mtavruli_bold.svg#bpg_nino_mtavruli_bold) format('svg')
 }
 @font-face {
     font-family: ptegi;
-    src: url('/wp-content/themes/vantage/font/bpg_arial_2009.eot');
-    src: url('/wp-content/themes/vantage/font/bpg_arial_2009.eot') format('embedded-opentype'),
-         url('/wp-content/themes/vantage/font/bpg_arial_2009.woff2') format('woff2'),
-         url('/wp-content/themes/vantage/font/bpg_arial_2009.woff') format('woff'),
-         url('/wp-content/themes/vantage/font/bpg_arial_2009.ttf') format('truetype'),
-         url('/wp-content/themes/vantage/font/bpg_arial_2009.svg#bpg_arial_2009') format('svg');
+    src: url('https://parloti.github.io/tickebook.com/font/bpg_arial_2009.eot');
+    src: url('https://parloti.github.io/tickebook.com/font/bpg_arial_2009.eot') format('embedded-opentype'),
+         url('https://parloti.github.io/tickebook.com/font/bpg_arial_2009.woff2') format('woff2'),
+         url('https://parloti.github.io/tickebook.com/font/bpg_arial_2009.woff') format('woff'),
+         url('https://parloti.github.io/tickebook.com/font/bpg_arial_2009.ttf') format('truetype'),
+         url('https://parloti.github.io/tickebook.com/font/bpg_arial_2009.svg#bpg_arial_2009') format('svg');
 }
 @font-face {
     font-family: glaho;
-    src: url(/wp-content/themes/vantage/font/bpg_arial_2009.eot);
-    src: url(/wp-content/themes/vantage/font/bpg_arial_2009.eot) format('embedded-opentype'), url(/wp-content/themes/vantage/font/bpg_arial_2009.woff2) format('woff2'), url(/wp-content/themes/vantage/font/bpg_arial_2009.woff) format('woff'), url(/wp-content/themes/vantage/font/bpg_arial_2009.ttf) format('truetype'), url(/wp-content/themes/vantage/font/bpg_arial_2009.svg#bpg_arial_2009) format('svg')
+    src: url(https://parloti.github.io/tickebook.com/font/bpg_arial_2009.eot);
+    src: url(https://parloti.github.io/tickebook.com/font/bpg_arial_2009.eot) format('embedded-opentype'), url(https://parloti.github.io/tickebook.com/font/bpg_arial_2009.woff2) format('woff2'), url(https://parloti.github.io/tickebook.com/font/bpg_arial_2009.woff) format('woff'), url(https://parloti.github.io/tickebook.com/font/bpg_arial_2009.ttf) format('truetype'), url(https://parloti.github.io/tickebook.com/font/bpg_arial_2009.svg#bpg_arial_2009) format('svg')
 }
 @media screen and (max-width: 800px) {
 
