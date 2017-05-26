@@ -1,64 +1,29 @@
-body .TPWL-header-content {
-    background: none !important;
-}
-
-.TPWL-template-header {
-    background: none !important;
-}
-
-.TPWL-header-content .TPWL-header-content-logo__img {
-    width: 105px !important;
-    height: 68px !important;
-    background-image: url("https://alexparloti.com/images/logo.png") !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-}
-
-.TPWL-header-content .TPWL-header-content-logo__text {
-    padding-left: 115px !important;
-    font-family: eb garamond, serif;
-    font-size: 30px !important;
-    font-weight: normal !important;
-    line-height: 68px !important;
-
-}
-
-@media (max-width: 480px) {
-    .TPWL-header-content .TPWL-header-content-logo__text span {
-        display: none;
-    }
-}
-
-@media (max-width: 460px) {
-    .TPWL-header-content {
-        text-align: center;
-        padding-bottom: 0px;
-        padding-top: 20px;
-    }
-}
-
-.TPWL-header-content__descrition {
-    font-family: nimbus-sans-tw01con, sans-serif;
-    font-size: 16px !important;
-    font-weight: normal !important;
-}
-
-@media (min-width: 760px) {
-    .TPWL-header-content__descrition {
-        line-height: 68px !important;
-    }
-}
-
-.TPWL-template-header-content {
-    max-width: 1024px;
-}
-
 .TPWL-wl_content {
     height: 100vh;
     margin: auto !important;
     display: table;
 }
 
-.js-sticky-informer {
-    display: none !important;
+.TPWL-wl_content.TPWL_widget--l,
+.TPWL-wl_content.TPWL_widget--m,
+.TPWL-wl_content.TPWL_widget--s {
+    padding-top: 60px !important;
+}
+
+@media (min-width: 576px) {
+    .TPWL-template-wrapper {
+        width: 60vw !important;
+    }
+}
+
+.TPWL-template-header {
+    background: none !important;
+}
+
+.TPWL-template-header-content {
+    max-width: 1024px;
+}
+
+.TPWL-widget.user-settings {
+    display: none;
 }

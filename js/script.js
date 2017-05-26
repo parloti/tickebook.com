@@ -1,7 +1,6 @@
 function addLi() {
 	var size = document.querySelectorAll(".mewtwo-tabs_list li").length;
 	if (size === 2) {
-		var desktop = '<br id="break" class="break"><li id="first" class="mewtwo-tabs-tabs_list__item mewtwo-tabs-tabs_list__item--count3 mewtwo-tabs-tabs_list__item--hotels"><span><a href="https://www.safeescapeholidays.com/holidaypackages" target="_blank">HOLIDAYS PACKAGES</a></span></li><li class="mewtwo-tabs-tabs_list__item mewtwo-tabs-tabs_list__item--count4 mewtwo-tabs-tabs_list__item--hotels" ><span><a href="https://www.safeescapeholidays.com/contact-us" target="_blank">CONTACT US</a></span></li>';
 		var br = document.createElement("br");
 		br.id = "break";
 		br.className = "break";
@@ -46,8 +45,6 @@ function addOffer() {
 	
 	if (size1 === size2 && size1 === size3) {
 		document.querySelectorAll("li.manual li").forEach(function (element, index) {
-			console.log(element, index);
-			console.log();
 			document.querySelector("ul li.manual").parentNode.appendChild(element);
 			document.querySelector("ul li.manual").parentNode.appendChild(document.querySelector("ul li.manual .ducklett-popup_wrapper"));
 			document.querySelector("ul li.manual").parentNode.appendChild(document.querySelector("ul li.manual script"));

@@ -1,0 +1,1421 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(//fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTQ7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(//fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(//fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTYjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(//fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(//fonts.gstatic.com/s/opensans/v13/RjgO7rYTmqiVp7vzi-Q5UYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(//fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(//fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(//fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSg7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(//fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(//fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSojoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(//fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+@font-face {
+    font-family: 'Currency Font';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//www.travelpayouts.com/widgets_fonts/currency-regular-webfont.eot');
+    src: url('//www.travelpayouts.com/widgets_fonts/currency-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//www.travelpayouts.com/widgets_fonts/currency-regular-webfont.woff') format('woff'), url('//www.travelpayouts.com/widgets_fonts/currency-regular-webfont.ttf') format('truetype'), url('//www.travelpayouts.com/widgets_fonts/currency-regular-webfont.svg#untitledregular') format('svg')
+}
+
+.ducklett-widget, .ducklett-modal {
+    box-sizing: border-box !important
+}
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+.ducklett-widget div, .ducklett-widget span, .ducklett-widget object, .ducklett-widget h1, .ducklett-widget h2, .ducklett-widget h3, .ducklett-widget p, .ducklett-widget a, .ducklett-widget em, .ducklett-widget img, .ducklett-widget strong, .ducklett-widget ul, .ducklett-widget li, .ducklett-widget dl, .ducklett-widget dt, .ducklett-widget dd, .ducklett-widget fieldset, .ducklett-widget form, .ducklett-widget label, .ducklett-widget legend, .ducklett-widget nav, .ducklett-widget table, .ducklett-widget caption, .ducklett-widget tbody, .ducklett-widget tfoot, .ducklett-widget thead, .ducklett-widget tr, .ducklett-widget th, .ducklett-widget td, .ducklett-widget article, .ducklett-widget aside, .ducklett-widget canvas, .ducklett-widget footer, .ducklett-widget header, .ducklett-widget hgroup, .ducklett-widget section, .ducklett-widget input, .ducklett-widget textarea, .ducklett-widget select, .ducklett-widget *::before, .ducklett-widget *::after, .ducklett-widget, .ducklett-modal div, .ducklett-modal span, .ducklett-modal object, .ducklett-modal h1, .ducklett-modal h2, .ducklett-modal h3, .ducklett-modal p, .ducklett-modal a, .ducklett-modal em, .ducklett-modal img, .ducklett-modal strong, .ducklett-modal ul, .ducklett-modal li, .ducklett-modal dl, .ducklett-modal dt, .ducklett-modal dd, .ducklett-modal fieldset, .ducklett-modal form, .ducklett-modal label, .ducklett-modal legend, .ducklett-modal nav, .ducklett-modal table, .ducklett-modal caption, .ducklett-modal tbody, .ducklett-modal tfoot, .ducklett-modal thead, .ducklett-modal tr, .ducklett-modal th, .ducklett-modal td, .ducklett-modal article, .ducklett-modal aside, .ducklett-modal canvas, .ducklett-modal footer, .ducklett-modal header, .ducklett-modal hgroup, .ducklett-modal section, .ducklett-modal input, .ducklett-modal textarea, .ducklett-modal select, .ducklett-modal *::before, .ducklett-modal *::after, .ducklett-modal {
+    float: none !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    vertical-align: baseline !important;
+    text-align: left !important;
+    text-indent: 0 !important;
+    letter-spacing: 0 !important;
+    text-transform: none !important;
+    white-space: normal !important;
+    font: inherit !important;
+    font-size: 100% !important;
+    font-style: normal !important;
+    line-height: 1 !important;
+    background: 0 0 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important
+}
+
+.ducklett-widget ol, .ducklett-widget ul, .ducklett-modal ol, .ducklett-modal ul {
+    list-style: none !important;
+    background-image: none !important
+}
+
+.ducklett-widget dt, .ducklett-widget dd, .ducklett-modal dt, .ducklett-modal dd {
+    display: inline-block !important
+}
+
+.ducklett-widget article, .ducklett-widget aside, .ducklett-widget details, .ducklett-widget footer, .ducklett-widget header, .ducklett-widget hgroup, .ducklett-widget menu, .ducklett-widget section, .ducklett-widget main, .ducklett-modal article, .ducklett-modal aside, .ducklett-modal details, .ducklett-modal footer, .ducklett-modal header, .ducklett-modal hgroup, .ducklett-modal menu, .ducklett-modal section, .ducklett-modal main {
+    display: block !important
+}
+
+.ducklett-widget a, .ducklett-modal a {
+    background-color: transparent !important
+}
+
+.ducklett-widget a:active, .ducklett-widget a:hover, .ducklett-modal a:active, .ducklett-modal a:hover {
+    outline: 0 !important
+}
+
+.ducklett-widget b, .ducklett-widget strong, .ducklett-modal b, .ducklett-modal strong {
+    font-weight: 700 !important
+}
+
+.ducklett-widget img, .ducklett-modal img {
+    border: 0 !important
+}
+
+.ducklett-widget svg:not(:root), .ducklett-modal svg:not(:root) {
+    overflow: hidden !important
+}
+
+.ducklett-widget button, .ducklett-widget input, .ducklett-widget optgroup, .ducklett-widget select, .ducklett-widget textarea, .ducklett-modal button, .ducklett-modal input, .ducklett-modal optgroup, .ducklett-modal select, .ducklett-modal textarea {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    color: inherit !important;
+    font: inherit !important;
+    display: initial !important
+}
+
+.ducklett-widget button, .ducklett-modal button {
+    overflow: visible !important
+}
+
+.ducklett-widget button, .ducklett-widget select, .ducklett-modal button, .ducklett-modal select {
+    text-transform: none !important
+}
+
+.ducklett-widget button, .ducklett-widget html input[type="button"], .ducklett-widget input[type="reset"], .ducklett-widget input[type="submit"], .ducklett-modal button, .ducklett-modal html input[type="button"], .ducklett-modal input[type="reset"], .ducklett-modal input[type="submit"] {
+    cursor: pointer !important;
+    -webkit-appearance: button !important
+}
+
+.ducklett-widget button[disabled], .ducklett-widget html input[disabled], .ducklett-modal button[disabled], .ducklett-modal html input[disabled] {
+    cursor: default !important
+}
+
+.ducklett-widget button::-moz-focus-inner, .ducklett-widget input::-moz-focus-inner, .ducklett-modal button::-moz-focus-inner, .ducklett-modal input::-moz-focus-inner {
+    padding: 0 !important;
+    border: 0 !important
+}
+
+.ducklett-widget input, .ducklett-modal input {
+    line-height: normal !important
+}
+
+.ducklett-widget input[type="checkbox"], .ducklett-widget input[type="radio"], .ducklett-modal input[type="checkbox"], .ducklett-modal input[type="radio"] {
+    box-sizing: border-box !important;
+    padding: 0 !important
+}
+
+.ducklett-widget input[type="number"]::-webkit-inner-spin-button, .ducklett-widget input[type="number"]::-webkit-outer-spin-button, .ducklett-modal input[type="number"]::-webkit-inner-spin-button, .ducklett-modal input[type="number"]::-webkit-outer-spin-button {
+    height: auto !important
+}
+
+.ducklett-widget input[type="search"], .ducklett-modal input[type="search"] {
+    box-sizing: content-box !important;
+    -webkit-appearance: textfield !important
+}
+
+.ducklett-widget input[type="search"]::-webkit-search-cancel-button, .ducklett-widget input[type="search"]::-webkit-search-decoration, .ducklett-modal input[type="search"]::-webkit-search-cancel-button, .ducklett-modal input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none !important
+}
+
+.ducklett-widget fieldset, .ducklett-modal fieldset {
+    margin: 0 2px !important;
+    padding: .35em .625em .75em !important;
+    border: 1px solid silver !important
+}
+
+.ducklett-widget legend, .ducklett-modal legend {
+    padding: 0 !important;
+    border: 0 !important
+}
+
+.ducklett-widget textarea, .ducklett-modal textarea {
+    overflow: auto !important
+}
+
+.ducklett-widget optgroup, .ducklett-modal optgroup {
+    font-weight: 700 !important
+}
+
+.ducklett-widget table, .ducklett-modal table {
+    border-spacing: 0 !important;
+    border-collapse: collapse !important
+}
+
+.ducklett-widget td, .ducklett-widget th, .ducklett-modal td, .ducklett-modal th {
+    padding: 0 !important
+}
+
+.ducklett-widget label, .ducklett-modal label {
+    display: inline-block !important
+}
+
+.ducklett-widget .ducklett-currency_font {
+    word-spacing: -.25ex !important;
+    white-space: nowrap !important;
+    font-family: 'Currency Font', Helvetica, sans !important;
+    font-weight: 400 !important
+}
+
+.ducklett-widget .ducklett-currency_font:before {
+    display: inline-block !important;
+    margin-right: .2ex !important
+}
+
+.ducklett-widget .ducklett-currency_font:after {
+    display: inline-block !important;
+    margin-left: .2ex !important
+}
+
+.ducklett-widget .ducklett-currency_font--aud:before {
+    content: "$" !important
+}
+
+.ducklett-widget .ducklett-currency_font--azn:before {
+    content: "₼" !important
+}
+
+.ducklett-widget .ducklett-currency_font--byr:after {
+    content: "Br" !important
+}
+
+.ducklett-widget .ducklett-currency_font--cad:before {
+    content: "C$" !important
+}
+
+.ducklett-widget .ducklett-currency_font--chf:before {
+    content: "Fr" !important
+}
+
+.ducklett-widget .ducklett-currency_font--cny:before {
+    content: "¥" !important
+}
+
+.ducklett-widget .ducklett-currency_font--egp:before {
+    content: "E£" !important
+}
+
+.ducklett-widget .ducklett-currency_font--eur:before {
+    content: "€" !important
+}
+
+.ducklett-widget .ducklett-currency_font--gbp:before {
+    content: "£" !important
+}
+
+.ducklett-widget .ducklett-currency_font--hkd:before {
+    content: "HK$" !important
+}
+
+.ducklett-widget .ducklett-currency_font--idr:before {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+    content: "Rp" !important
+}
+
+.ducklett-widget .ducklett-currency_font--inr:before {
+    content: "₹" !important
+}
+
+.ducklett-widget .ducklett-currency_font--kok:after {
+    content: "kr" !important
+}
+
+.ducklett-widget .ducklett-currency_font--kzt:after {
+    content: "T" !important
+}
+
+.ducklett-widget .ducklett-currency_font--ltl:after {
+    content: "Lt" !important
+}
+
+.ducklett-widget .ducklett-currency_font--nzd:before {
+    content: "NZ$" !important
+}
+
+.ducklett-widget .ducklett-currency_font--php:before {
+    content: "₱" !important
+}
+
+.ducklett-widget .ducklett-currency_font--pkr:before {
+    content: "₨" !important
+}
+
+.ducklett-widget .ducklett-currency_font--rub:after {
+    content: "R" !important
+}
+
+.ducklett-widget .ducklett-currency_font--sgd:before {
+    content: "S$" !important
+}
+
+.ducklett-widget .ducklett-currency_font--thb:before {
+    content: "฿" !important
+}
+
+.ducklett-widget .ducklett-currency_font--uah:after {
+    content: "G" !important
+}
+
+.ducklett-widget .ducklett-currency_font--usd:before {
+    content: '$' !important
+}
+
+.ducklett-widget .ducklett-currency_font--jpy:before {
+    content: '‎¥‎' !important
+}
+
+.ducklett-widget .ducklett-currency_font--nok:after {
+    content: '‎kr‎' !important
+}
+
+.ducklett-widget .ducklett-currency_font--zar:before {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+    content: "R" !important
+}
+
+.ducklett-widget, .ducklett-modal {
+    width: 100% !important;
+    color: #424242 !important;
+    font-family: 'Open Sans', Arial, 'Sans-Serif' !important
+}
+
+.ducklett-widget {
+    min-width: 310px !important
+}
+
+.ducklett-widget .ducklett-slider-wrapper {
+    overflow: hidden !important
+}
+
+.ducklett-widget .ducklett-widget-type_slider {
+    position: relative !important;
+    margin: 0 25px !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important
+}
+
+.ducklett-widget .ducklett-widget-wrapper--brickwork {
+    -js-display: -webkit-flex !important;
+    -js-display: -ms-flexbox !important;
+    -js-display: flex !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    margin: 0 0 -20px -20px !important;
+    -webkit-flex-flow: row wrap !important;
+    -ms-flex-flow: row wrap !important;
+    flex-flow: row wrap !important;
+    -webkit-justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important
+}
+
+.ducklett-widget .ducklett-widget-wrapper--slider {
+    margin-left: -20px !important;
+    white-space: nowrap !important;
+    -o-transition: transform 900ms ease, -o-transform 900ms ease !important;
+    transition: transform 900ms ease !important;
+    transition: transform 900ms ease, -webkit-transform 900ms ease, -o-transform 900ms ease !important
+}
+
+.ducklett-widget .ducklett-widget-wrapper-item {
+    margin-left: 20px !important;
+    max-width: 340px !important
+}
+
+.ducklett-widget .ducklett-widget-wrapper--brickwork .ducklett-widget-wrapper-item {
+    margin: 0 0 20px 20px !important;
+    -webkit-flex-basis: 260px !important;
+    -ms-flex-preferred-size: 260px !important;
+    flex-basis: 260px !important;
+    -webkit-flex-grow: 1 !important;
+    -ms-flex-positive: 1 !important;
+    flex-grow: 1 !important
+}
+
+.ducklett-widget .ducklett-widget-wrapper--ie .ducklett-widget-wrapper-item {
+    -webkit-flex-grow: 0 !important;
+    -ms-flex-positive: 0 !important;
+    flex-grow: 0 !important
+}
+
+.ducklett-widget .ducklett-widget-wrapper--slider .ducklett-widget-wrapper-item {
+    display: inline-block !important;
+    min-width: 260px !important;
+    vertical-align: top !important
+}
+
+.ducklett-widget .ducklett-slide_arrow {
+    position: absolute !important;
+    top: 115px !important;
+    width: 15px !important;
+    height: 30px !important;
+    cursor: pointer !important;
+    content: '' !important
+}
+
+.ducklett-widget .ducklett-slide_arrow:hover {
+    opacity: .5 !important
+}
+
+.ducklett-widget .ducklett-slide_arrow--left {
+    left: -25px !important
+}
+
+.ducklett-widget .ducklett-slide_arrow--left, .ducklett-widget .ducklett-slide_arrow--right {
+    background: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2027%2052%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22m1%201l14.556%2014.556c3.487%203.487%2010.461%2010.461%2010.461%2010.461l-24.984%2024.984%22%20stroke%3D%22%23979797%22%20transform%3D%22matrix(-1%200%200%201%2027.02%200)%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") !important
+}
+
+.ducklett-widget .ducklett-slide_arrow--right {
+    right: -25px !important;
+    -webkit-transform: rotate(180deg) !important;
+    -ms-transform: rotate(180deg) !important;
+    -o-transform: rotate(180deg) !important;
+    transform: rotate(180deg) !important
+}
+
+.ducklett-widget .ducklett-special_offer {
+    height: 260px !important
+}
+
+.ducklett-widget .ducklett-special_offer-title-wrapper {
+    padding: 0 20px !important;
+    background-color: #00b1dd !important;
+    opacity: .8 !important
+}
+
+.ducklett-widget .ducklett-special_offer__title {
+    display: table-cell !important;
+    width: 100% !important;
+    height: 60px !important;
+    color: #FFF !important;
+    vertical-align: middle !important;
+    font-size: 16px !important;
+    line-height: 22px !important
+}
+
+.ducklett-widget .ducklett-special_offer__title:first-letter {
+    text-transform: uppercase !important
+}
+
+.ducklett-widget .ducklett-special_offer-body {
+    position: relative !important;
+    box-sizing: border-box !important;
+    padding: 10px 20px !important;
+    height: 200px !important;
+    border-right: 1px solid #eee !important;
+    border-bottom: 1px solid #eee !important;
+    border-left: 1px solid #eee !important;
+    background: #fff !important
+}
+
+.ducklett-widget .ducklett-special_offer-body-price {
+    position: relative !important;
+    height: 60px !important;
+    text-align: right !important;
+    background-position: left top !important;
+    background-size: auto 40px !important;
+    background-repeat: no-repeat !important
+}
+
+.ducklett-widget .ducklett-special_offer-body-price div {
+    text-align: right !important
+}
+
+.ducklett-widget .ducklett-special_offer-body-price-before-discount {
+    text-decoration: line-through !important;
+    font-size: 12px !important
+}
+
+.ducklett-widget .ducklett-special_offer-body-price-after-discount {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    font-size: 22px !important
+}
+
+.ducklett-widget .ducklett-special_offer-body-price-sale_end {
+    display: inline-block !important;
+    padding-left: 15px !important;
+    color: #AAA !important;
+    font-size: 12px !important;
+    background-image: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2010%2010%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3EFill%201%3C%2Ftitle%3E%3Cpath%20d%3D%22M5%200C2.24%200%200%202.24%200%205s2.24%205%205%205%205-2.24%205-5-2.24-5-5-5zm0%209C2.79%209%201%207.21%201%205s1.79-4%204-4%204%201.79%204%204-1.79%204-4%204zm2.422-3.368l-1.795-.73v-2.06c0-.342-.265-.62-.59-.62-.328%200-.593.278-.593.62v2.272c0%20.04.004.08.012.12.005.196.132.395.355.516l1.948.813c.332.18.75.12.934-.138.184-.257.063-.612-.27-.793%22%20fill%3D%22%23AAA%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E") !important;
+    background-size: 12px 12px !important;
+    background-repeat: no-repeat !important
+}
+
+.ducklett-widget .ducklett-special_offer-body__description {
+    position: absolute !important;
+    bottom: 65px !important;
+    padding-right: 20px !important;
+    font-size: 13px !important;
+    line-height: 18px !important
+}
+
+.ducklett-widget .ducklett-special_offer-body--button-wrapper {
+    position: absolute !important;
+    bottom: 15px !important;
+    left: 0 !important;
+    width: 100% !important
+}
+
+.ducklett-widget .ducklett-special_offer-body__button {
+    display: block !important;
+    margin: auto !important;
+    padding: 0 20px !important;
+    height: 40px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    background-color: #f5a422 !important;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, .1) !important
+}
+
+.ducklett-widget .ducklett-special_offer-body__button:hover {
+    background-color: #f7b64e !important
+}
+
+.ducklett-widget .ducklett-number {
+    word-spacing: -.25ex !important
+}
+
+.ducklett-widget .ducklett-popup_wrapper {
+    position: fixed !important;
+    display: none !important;
+    overflow: scroll !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    opacity: 0 !important;
+    -o-transition: opacity .5s !important;
+    transition: opacity .5s !important
+}
+
+.ducklett-widget .ducklett-popup-section_wrapper {
+    position: relative !important;
+    min-height: 100% !important;
+    border-top: 1px solid rgba(0, 0, 0, .3) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, .3) !important
+}
+
+.ducklett-widget .ducklett-popup {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: rgba(0, 0, 0, .3) !important
+}
+
+.ducklett-widget .ducklett-popup-content {
+    position: relative !important;
+    margin: 20vh auto 10vh !important;
+    width: 80% !important;
+    min-width: 288px !important;
+    max-width: 800px !important;
+    background: #fff !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15) !important
+}
+
+@media (max-width: 768px) {
+    .ducklett-widget .ducklett-popup-content {
+        width: 90% !important
+    }
+}
+
+@media (max-width: 480px) {
+    .ducklett-widget .ducklett-popup-content {
+        width: 100% !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-header {
+    padding: 20px !important;
+    background: #00b1dd !important
+}
+
+@media (max-width: 480px) {
+    .ducklett-widget .ducklett-popup-header {
+        padding: 20px 10px !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-header__offer {
+    color: #fff !important;
+    font-size: 18px !important
+}
+
+@media (max-width: 768px) {
+    .ducklett-widget .ducklett-popup-header__offer {
+        font-size: 15px !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-header__offer:first-letter {
+    text-transform: uppercase !important
+}
+
+.ducklett-widget .ducklett-popup-flight_dates {
+    margin-top: 10px !important;
+    color: #fff !important;
+    font-size: 12px !important
+}
+
+.ducklett-widget .ducklett-popup-flight_dates__text:after {
+    content: ":\00a0" !important
+}
+
+.ducklett-widget .ducklett-popup-routes {
+    padding: 20px !important
+}
+
+@media (max-width: 480px) {
+    .ducklett-widget .ducklett-popup-routes {
+        padding: 20px 10px !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-offer_summary {
+    overflow: hidden !important;
+    background: 0 50% no-repeat !important;
+    background-size: auto 100% !important
+}
+
+.ducklett-widget .ducklett-special_offer-body-price-before-discount.ducklett-special_offer-body-price-before-discount--popup {
+    color: #999 !important;
+    text-align: right !important
+}
+
+.ducklett-widget .ducklett-special_offer-body-price-after-discount.ducklett-special_offer-body-price-after-discount--popup {
+    text-align: right !important;
+    font-size: 28px !important
+}
+
+.ducklett-widget .ducklett-special_offer-body-price-sale_end.ducklett-special_offer-body-price-sale_end--popup {
+    float: right !important;
+    text-align: right !important
+}
+
+.ducklett-widget .ducklett-popup-offers_list {
+    margin-top: 25px !important
+}
+
+.ducklett-widget .ducklett-popup-offers_list__offer {
+    position: relative !important;
+    margin-bottom: 7px !important;
+    padding: 5px 15px !important;
+    min-height: 40px !important;
+    background: #f5f5f5 !important
+}
+
+@media (max-width: 768px) {
+    .ducklett-widget .ducklett-popup-offers_list__offer {
+        border-radius: 0 3px 3px 0 !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-offer_cities {
+    display: inline-block !important;
+    margin-bottom: 3px !important;
+    color: #424242 !important;
+    font-size: 14px !important
+}
+
+.ducklett-widget .ducklett-popup-offer_info {
+    display: block !important;
+    color: #999 !important;
+    font-size: 10px !important
+}
+
+.ducklett-widget .ducklett-popup-offer__side {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    padding-left: 15px !important;
+    line-height: 40px !important;
+    background: #f5f5f5 !important
+}
+
+@media (max-width: 768px) {
+    .ducklett-widget .ducklett-popup-offer__side {
+        border-radius: 0 3px 3px 0 !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-offer__side:before {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: -30px !important;
+    width: 30px !important;
+    background-image: -o-linear-gradient(left, rgba(245, 245, 245, 0), #f5f5f5) !important;
+    background-image: linear-gradient(to right, rgba(245, 245, 245, 0), #f5f5f5) !important;
+    content: "" !important
+}
+
+.ducklett-widget .ducklett-popup-offer_price {
+    margin-right: 10px !important;
+    font-size: 14px !important
+}
+
+.ducklett-widget .ducklett-popup-offer-button {
+    display: inline-block !important;
+    width: 120px !important;
+    height: 40px !important;
+    border-radius: 3px !important;
+    color: #f5a422 !important;
+    vertical-align: top !important;
+    text-align: center !important;
+    font-size: 11px !important;
+    line-height: 40px !important;
+    cursor: pointer !important
+}
+
+@media (max-width: 768px) {
+    .ducklett-widget .ducklett-popup-offer-button {
+        position: relative !important;
+        width: 40px !important;
+        border-radius: 0 3px 3px 0 !important;
+        text-indent: -10000px !important;
+        background-color: #eaeaea !important;
+        background-image: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2015%2017%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3EShape%3C%2Ftitle%3E%3Cpath%20d%3D%22M2%207.998s.002%207.25%200%207.002h11.003c-.002%200-.006-7-.006-7L2%207.997zM8%2011h4v3H8v-3zm7-5v9c0%201.105-.895%202-2%202H2c-1.105%200-2-.895-2-2V6h15zm-3-4V1c0-.552-.448-1-1-1h-1c-.552%200-1%20.448-1%201v1H6V1c0-.552-.448-1-1-1H4c-.552%200-1%20.448-1%201v1H2C.895%202%200%202.894%200%204h15c0-1.105-.895-2-2-2h-1z%22%20fill%3D%22%23F5A422%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E") !important;
+        background-position: 50% 50% !important;
+        background-size: 15px 17px !important;
+        background-repeat: no-repeat !important
+    }
+
+    .ducklett-widget .ducklett-popup-offer-button:hover {
+        background-image: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2015%2017%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3EShape%3C%2Ftitle%3E%3Cpath%20d%3D%22M2%207.998s.002%207.25%200%207.002h11.003c-.002%200-.006-7-.006-7L2%207.997zM8%2011h4v3H8v-3zm7-5v9c0%201.105-.895%202-2%202H2c-1.105%200-2-.895-2-2V6h15zm-3-4V1c0-.552-.448-1-1-1h-1c-.552%200-1%20.448-1%201v1H6V1c0-.552-.448-1-1-1H4c-.552%200-1%20.448-1%201v1H2C.895%202%200%202.894%200%204h15c0-1.105-.895-2-2-2h-1z%22%20fill%3D%22%23F7B64E%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E") !important
+    }
+
+    .ducklett-widget .ducklett-popup-offer-button:before {
+        position: absolute !important;
+        left: 0 !important;
+        width: 1px !important;
+        height: 100% !important;
+        background-color: #e6e6e6 !important;
+        content: "" !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-offer-button > span {
+    display: inline-block !important;
+    padding-bottom: 2px !important;
+    border-bottom: 1px dashed !important;
+    text-transform: uppercase !important
+}
+
+.ducklett-widget .ducklett-popup-offer-button:hover {
+    color: #f7b64e !important
+}
+
+.ducklett-widget .ducklett-popup-offer-form__button {
+    display: inline-block !important;
+    height: 40px !important;
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+    color: #fff !important;
+    vertical-align: top !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    font-size: 11px !important;
+    line-height: 40px !important;
+    background-color: #f5a422 !important;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, .1) !important;
+    cursor: pointer !important;
+    border-left-right-radius: 3px !important
+}
+
+@media (max-width: 768px) {
+    .ducklett-widget .ducklett-popup-offer-form__button {
+        width: 40px !important;
+        text-indent: -10000px !important;
+        background-image: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2015%2017%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3EShape%3C%2Ftitle%3E%3Cpath%20d%3D%22M2%207.998s.002%207.25%200%207.002h11.003c-.002%200-.006-7-.006-7L2%207.997zM8%2011h4v3H8v-3zm7-5v9c0%201.105-.895%202-2%202H2c-1.105%200-2-.895-2-2V6h15zm-3-4V1c0-.552-.448-1-1-1h-1c-.552%200-1%20.448-1%201v1H6V1c0-.552-.448-1-1-1H4c-.552%200-1%20.448-1%201v1H2C.895%202%200%202.894%200%204h15c0-1.105-.895-2-2-2h-1z%22%20fill%3D%22%23F5A422%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E") !important;
+        background-position: 50% 50% !important;
+        background-size: 15px 17px !important;
+        background-repeat: no-repeat !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-offer-form__button:hover {
+    background-color: #f7b64e !important
+}
+
+.ducklett-widget .ducklett-popup-footer {
+    padding: 0 20px 20px !important;
+    color: #999 !important;
+    text-align: center !important;
+    font-size: 12px !important
+}
+
+@media (max-width: 480px) {
+    .ducklett-widget .ducklett-popup-footer {
+        padding: 0 10px 10px !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-sales_dates {
+    display: inline-block !important
+}
+
+.ducklett-widget .ducklett-popup-sales_dates__text:after {
+    content: ":\00a0" !important
+}
+
+.ducklett-widget .ducklett-popup-close {
+    position: absolute !important;
+    top: -35px !important;
+    right: -50px !important;
+    width: 30px !important;
+    height: 30px !important;
+    cursor: pointer !important
+}
+
+@media (max-width: 768px) {
+    .ducklett-widget .ducklett-popup-close {
+        right: auto !important;
+        left: 50% !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-close:hover:before {
+    -webkit-transform: rotate(-45deg) scale(1.2, 1.2) !important;
+    -ms-transform: rotate(-45deg) scale(1.2, 1.2) !important;
+    -o-transform: rotate(-45deg) scale(1.2, 1.2) !important;
+    transform: rotate(-45deg) scale(1.2, 1.2) !important
+}
+
+.ducklett-widget .ducklett-popup-close:hover:after {
+    -webkit-transform: rotate(45deg) scale(1.2, 1.2) !important;
+    -ms-transform: rotate(45deg) scale(1.2, 1.2) !important;
+    -o-transform: rotate(45deg) scale(1.2, 1.2) !important;
+    transform: rotate(45deg) scale(1.2, 1.2) !important
+}
+
+.ducklett-widget .ducklett-popup-close:before {
+    -webkit-transform: rotate(-45deg) !important;
+    -ms-transform: rotate(-45deg) !important;
+    -o-transform: rotate(-45deg) !important;
+    transform: rotate(-45deg) !important
+}
+
+.ducklett-widget .ducklett-popup-close:before, .ducklett-widget .ducklett-popup-close:after {
+    position: absolute !important;
+    width: 0 !important;
+    height: 30px !important;
+    border-left: 2px solid #fff !important;
+    cursor: pointer !important;
+    -o-transition: transform .1s ease-out, -o-transform .1s ease-out !important;
+    transition: transform .1s ease-out !important;
+    transition: transform .1s ease-out, -webkit-transform .1s ease-out, -o-transform .1s ease-out !important;
+    content: "" !important
+}
+
+.ducklett-widget .ducklett-popup-close:after {
+    -webkit-transform: rotate(45deg) !important;
+    -ms-transform: rotate(45deg) !important;
+    -o-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important
+}
+
+.ducklett-widget .ducklett-popup-offer-form {
+    display: none !important;
+    width: 380px !important
+}
+
+@media (max-width: 768px) {
+    .ducklett-widget .ducklett-popup-offer-form {
+        width: 248px !important
+    }
+}
+
+@media (max-width: 480px) {
+    .ducklett-widget .ducklett-popup-offer-form {
+        width: 100% !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-offer-form--oneway {
+    width: 250px !important;
+    text-align: right !important
+}
+
+@media (max-width: 768px) {
+    .ducklett-widget .ducklett-popup-offer-form--oneway {
+        width: 144px !important
+    }
+}
+
+@media (max-width: 480px) {
+    .ducklett-widget .ducklett-popup-offer-form--oneway {
+        width: 100% !important
+    }
+
+    .ducklett-widget .ducklett-popup-offer-form--oneway .ducklett-popup-offer-form__start_date {
+        width: 80% !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-offer-form__end_date, .ducklett-widget .ducklett-popup-offer-form__start_date {
+    padding: 0 10px !important;
+    width: 130px !important;
+    height: 40px !important;
+    border: 1px solid #DDD !important;
+    color: #424242 !important;
+    vertical-align: top !important;
+    font-size: 14px !important;
+    background-color: #fff !important
+}
+
+@media (max-width: 768px) {
+    .ducklett-widget .ducklett-popup-offer-form__end_date, .ducklett-widget .ducklett-popup-offer-form__start_date {
+        width: 104px !important
+    }
+}
+
+@media (max-width: 480px) {
+    .ducklett-widget .ducklett-popup-offer-form__end_date, .ducklett-widget .ducklett-popup-offer-form__start_date {
+        width: 40% !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-offer-form__end_date:focus, .ducklett-widget .ducklett-popup-offer-form__start_date:focus {
+    position: relative !important;
+    z-index: 1 !important;
+    border-radius: 0 !important;
+    outline: 2px solid #fdd835 !important;
+    outline-offset: -1px !important
+}
+
+.ducklett-widget .ducklett-popup-offer-form__start_date {
+    border-radius: 3px 0 0 3px !important
+}
+
+.ducklett-widget .ducklett-popup-offer-form__end_date {
+    border-right: none !important;
+    border-left: none !important
+}
+
+.ducklett-widget .ducklett-popup-offer-form__button {
+    width: 120px !important;
+    border: none !important
+}
+
+@media (max-width: 768px) {
+    .ducklett-widget .ducklett-popup-offer-form__button {
+        width: 40px !important;
+        background: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2014%2015%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3Esearch%3C%2Ftitle%3E%3Cpath%20d%3D%22M12.678%2011.453l-2.34-2.386c.635-.933%201.01-2.066%201.01-3.286C11.347%202.594%208.8%200%205.672%200%202.545%200%200%202.593%200%205.78c0%203.19%202.545%205.782%205.673%205.782.862%200%201.68-.197%202.412-.55l2.513%202.56c.27.276.968%201.037%202.064-.016%201.096-1.052.58-1.528.016-2.103zM2.258%205.645c0-1.867%201.52-3.387%203.387-3.387%201.868%200%203.387%201.52%203.387%203.387%200%201.868-1.52%203.387-3.387%203.387s-3.387-1.52-3.387-3.387z%22%20fill%3D%22%23FFF%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E") center no-repeat !important;
+        background-color: #f5a422 !important;
+        background-size: 17px 17px !important
+    }
+}
+
+@media (max-width: 480px) {
+    .ducklett-widget .ducklett-popup-offer-form__button {
+        width: 20% !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-offer__side--datepicker_shown {
+    padding-left: 0 !important
+}
+
+@media (max-width: 480px) {
+    .ducklett-widget .ducklett-popup-offer__side--datepicker_shown {
+        width: 100% !important
+    }
+}
+
+.ducklett-widget .ducklett-popup-offer__side--datepicker_shown:before {
+    display: none !important
+}
+
+.ducklett-widget .ducklett-popup-offer__side--datepicker_shown .ducklett-popup-offer-form {
+    display: block !important
+}
+
+.ducklett-widget .ducklett-popup-offer__side--datepicker_shown .ducklett-popup-offer-button, .ducklett-widget .ducklett-popup-offer__side--datepicker_shown .ducklett-popup-offer_price {
+    display: none !important
+}
+
+.ducklett-modal .ducklett-datepicker {
+    position: absolute !important;
+    z-index: 1000 !important;
+    padding: 5px 0 15px !important;
+    width: 100% !important;
+    height: 220px !important;
+    color: #000 !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    -o-transition: all .2s cubic-bezier(.165, .84, .44, 1) !important;
+    transition: all .2s cubic-bezier(.165, .84, .44, 1) !important
+}
+
+.ducklett-modal--midMin .ducklett-modal .ducklett-datepicker, .ducklett-modal--min .ducklett-modal .ducklett-datepicker, .ducklett-modal--micro .ducklett-modal .ducklett-datepicker {
+    padding-top: 0 !important
+}
+
+.ducklett-modal .ducklett-datepicker table {
+    border-spacing: 0 !important;
+    border-collapse: collapse !important
+}
+
+.ducklett-modal .ducklett-datepicker td, .ducklett-modal .ducklett-datepicker th {
+    padding: 0 !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-header {
+    padding: 10px 9px 0 !important;
+    width: 100% !important;
+    height: 40px !important;
+    text-align: center !important
+}
+
+.ducklett-modal--midMin .ducklett-modal .ducklett-datepicker .ducklett-datepicker-header, .ducklett-modal--min .ducklett-modal .ducklett-datepicker .ducklett-datepicker-header {
+    padding-top: 5px !important;
+    height: 30px !important
+}
+
+.ducklett-modal--micro .ducklett-modal .ducklett-datepicker .ducklett-datepicker-header {
+    padding-top: 5px !important;
+    height: 27px !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-prev-month-control, .ducklett-modal .ducklett-datepicker .ducklett-datepicker-next-month-control {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    -webkit-touch-callout: none !important;
+    position: absolute !important;
+    top: 17px !important;
+    width: 15px !important;
+    height: 13px !important;
+    font-size: 15px !important;
+    content: '' !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-prev-month-control:hover, .ducklett-modal .ducklett-datepicker .ducklett-datepicker-next-month-control:hover {
+    opacity: .7 !important;
+    cursor: pointer !important
+}
+
+.ducklett-modal--midMin .ducklett-modal .ducklett-datepicker .ducklett-datepicker-prev-month-control, .ducklett-modal--min .ducklett-modal .ducklett-datepicker .ducklett-datepicker-prev-month-control, .ducklett-modal--micro .ducklett-modal .ducklett-datepicker .ducklett-datepicker-prev-month-control, .ducklett-modal--midMin .ducklett-modal .ducklett-datepicker .ducklett-datepicker-next-month-control, .ducklett-modal--min .ducklett-modal .ducklett-datepicker .ducklett-datepicker-next-month-control, .ducklett-modal--micro .ducklett-modal .ducklett-datepicker .ducklett-datepicker-next-month-control {
+    top: 8px !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-prev-month-control {
+    left: 15px !important
+}
+
+.ducklett-modal--midMin .ducklett-modal .ducklett-datepicker .ducklett-datepicker-prev-month-control, .ducklett-modal--min .ducklett-modal .ducklett-datepicker .ducklett-datepicker-prev-month-control, .ducklett-modal--micro .ducklett-modal .ducklett-datepicker .ducklett-datepicker-prev-month-control {
+    left: 10px !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-next-month-control {
+    right: 15px !important;
+    -webkit-transform: rotate(180deg) !important;
+    -ms-transform: rotate(180deg) !important;
+    -o-transform: rotate(180deg) !important;
+    transform: rotate(180deg) !important
+}
+
+.ducklett-modal--midMin .ducklett-modal .ducklett-datepicker .ducklett-datepicker-next-month-control, .ducklett-modal--min .ducklett-modal .ducklett-datepicker .ducklett-datepicker-next-month-control, .ducklett-modal--micro .ducklett-modal .ducklett-datepicker .ducklett-datepicker-next-month-control {
+    right: 10px !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker--min-month .ducklett-datepicker-prev-month-control, .ducklett-modal .ducklett-datepicker.ducklett-datepicker--min-month .ducklett-datepicker-prev-month-control:hover, .ducklett-modal .ducklett-datepicker.ducklett-datepicker--max-month .ducklett-datepicker-next-month-control, .ducklett-modal .ducklett-datepicker.ducklett-datepicker--max-month .ducklett-datepicker-next-month-control:hover {
+    opacity: .3 !important;
+    cursor: default !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-container {
+    padding: 0 5px !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-container > div {
+    display: table !important;
+    width: 100% !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-container > div > div {
+    display: table-cell !important;
+    padding-left: 20px !important;
+    vertical-align: top !important
+}
+
+.ducklett-modal--midMin .ducklett-modal .ducklett-datepicker .ducklett-datepicker-container > div > div {
+    padding-left: 10px !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-container > div > div:first-child {
+    padding-left: 5px !important
+}
+
+.ducklett-modal--midMin .ducklett-modal .ducklett-datepicker .ducklett-datepicker-container > div > div:first-child, .ducklett-modal--min .ducklett-modal .ducklett-datepicker .ducklett-datepicker-container > div > div:first-child, .ducklett-modal--micro .ducklett-modal .ducklett-datepicker .ducklett-datepicker-container > div > div:first-child {
+    padding-left: 0 !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-hidden {
+    opacity: 0 !important;
+    -webkit-transform: scale(1, 0) !important;
+    -ms-transform: scale(1, 0) !important;
+    -o-transform: scale(1, 0) !important;
+    transform: scale(1, 0) !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-simple .ducklett-datepicker-current:hover {
+    color: #fff !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table {
+    float: left !important;
+    margin-bottom: 0 !important;
+    width: 100% !important;
+    min-width: 170px !important;
+    max-width: 260px !important;
+    border-spacing: 0 !important;
+    border-collapse: collapse !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table .ducklett-datepicker-day_name {
+    text-align: center !important;
+    text-transform: uppercase !important;
+    font-size: 10px !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table.ducklett-datepicker-table--normal-weekdays .ducklett-datepicker-day_name:nth-child(6), .ducklett-modal .ducklett-datepicker .ducklett-datepicker-table.ducklett-datepicker-table--normal-weekdays .ducklett-datepicker-day_name:nth-child(7) {
+    color: #f4511e !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table.ducklett-datepicker-table--sunday-first .ducklett-datepicker-day_name:first-child, .ducklett-modal .ducklett-datepicker .ducklett-datepicker-table.ducklett-datepicker-table--sunday-first .ducklett-datepicker-day_name:last-child {
+    color: #f4511e !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table .ducklett-datepicker-invalid-date {
+    color: silver !important;
+    cursor: default !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table .ducklett-datepicker-current {
+    cursor: pointer !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table .ducklett-datepicker-today {
+    font-weight: 900 !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table .ducklett-datepicker-next {
+    display: none !important;
+    opacity: .4 !important;
+    cursor: pointer !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table .ducklett-datepicker-next.ducklett-datepicker-invalid-date div {
+    color: silver !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table .ducklett-datepicker-prev {
+    visibility: hidden !important;
+    opacity: .4 !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table .ducklett-datepicker-prev.ducklett-datepicker-invalid-date div {
+    color: silver !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table td.ducklett-datepicker-day_name {
+    height: 15px !important;
+    cursor: default !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-table td div {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    -webkit-touch-callout: none !important;
+    margin: 1px 0 2px !important;
+    width: 100% !important;
+    height: 25px !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    line-height: 25px !important
+}
+
+.ducklett-modal--midMin .ducklett-modal .ducklett-datepicker .ducklett-datepicker-table td div, .ducklett-modal--min .ducklett-modal .ducklett-datepicker .ducklett-datepicker-table td div {
+    margin: 1px 0 !important;
+    height: 20px !important;
+    line-height: 20px !important
+}
+
+.ducklett-modal--micro .ducklett-modal .ducklett-datepicker .ducklett-datepicker-table td div {
+    margin: 1px 0 0 !important;
+    height: 16px !important;
+    line-height: 16px !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-current-date div, .ducklett-modal .ducklett-datepicker .ducklett-datepicker-next div, .ducklett-modal .ducklett-datepicker .ducklett-datepicker-prev div {
+    position: relative !important;
+    z-index: 1 !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-container-return_button {
+    position: absolute !important;
+    display: none !important;
+    clear: both !important;
+    bottom: 20px !important;
+    width: 100% !important;
+    color: #ffa600 !important;
+    font-size: 11px !important;
+    cursor: pointer !important
+}
+
+.ducklett-modal--midMin .ducklett-modal .ducklett-datepicker .ducklett-datepicker-container-return_button, .ducklett-modal--min .ducklett-modal .ducklett-datepicker .ducklett-datepicker-container-return_button {
+    bottom: 10px !important
+}
+
+.ducklett-modal--max .ducklett-modal .ducklett-datepicker .ducklett-datepicker-container-return_button {
+    bottom: -70px !important
+}
+
+.ducklett-modal--midMax .ducklett-modal .ducklett-datepicker .ducklett-datepicker-container-return_button {
+    bottom: -55px !important
+}
+
+.ducklett-modal--micro .ducklett-modal .ducklett-datepicker .ducklett-datepicker-container-return_button {
+    visibility: hidden !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-container-return_button__text {
+    position: relative !important;
+    display: block !important;
+    margin: 0 auto !important;
+    padding: 7px 0 !important;
+    width: 160px !important;
+    border: 1px solid #ffa600 !important;
+    border-radius: 40px !important;
+    text-align: center !important
+}
+
+.ducklett-modal--max .ducklett-modal .ducklett-datepicker .ducklett-datepicker-container-return_button__text {
+    padding: 15px 0 !important;
+    width: 230px !important;
+    font-size: 13px !important
+}
+
+.ducklett-modal .ducklett-datepicker .ducklett-datepicker-container-return_button__text:hover {
+    border-color: #ffaf1a !important;
+    color: #ffaf1a !important
+}
+
+.ducklett-modal .ducklett-datepicker--double .ducklett-datepicker-months span {
+    display: inline-block !important;
+    width: 50% !important;
+    text-align: center !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-range div, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-range div {
+    position: relative !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-range div:after, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-range div:after {
+    position: absolute !important;
+    display: block !important;
+    bottom: 0 !important;
+    left: 50% !important;
+    margin-left: -2px !important;
+    width: 4px !important;
+    height: 4px !important;
+    border-radius: 2px !important;
+    content: '' !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-start-sausage, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-end-sausage, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-start-sausage, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-end-sausage {
+    position: relative !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-start-sausage--invisible div, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-end-sausage--invisible div, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-start-sausage--invisible div, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-end-sausage--invisible div {
+    font-weight: 700 !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-start-sausage div, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-end-sausage div, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-start-sausage div, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-end-sausage div {
+    color: #fff !important;
+    background-repeat: no-repeat !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-start-sausage div:after, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-end-sausage div:after, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-start-sausage div:after, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-end-sausage div:after {
+    display: none !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-start-sausage div, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-start-sausage div {
+    background-position: right !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-table .ducklett-datepicker-end-sausage div, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-table .ducklett-datepicker-end-sausage div {
+    background-position: left !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-legend, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-legend {
+    position: absolute !important;
+    right: 5px !important;
+    bottom: 11px !important;
+    z-index: 1000 +1 !important;
+    padding: 5px 5px 5px 25px !important;
+    font-size: 12px !important;
+    background-color: #fff !important;
+    -o-transition: all .5s cubic-bezier(.165, .84, .44, 1) !important;
+    transition: all .5s cubic-bezier(.165, .84, .44, 1) !important
+}
+
+.ducklett-modal .ducklett-datepicker.ducklett-datepicker-range .ducklett-datepicker-legend:before, .ducklett-modal .ducklett-datepicker.ducklett-datepicker-range-legend .ducklett-datepicker-legend:before {
+    position: absolute !important;
+    left: 5px !important;
+    width: 15px !important;
+    height: 13px !important;
+    color: #fff !important;
+    background-size: 100% !important;
+    content: '' !important
+}
+
+.ducklett-modal .ducklett-datepicker-simple .ducklett-datepicker-current:hover div {
+    color: #fff !important;
+    background-color: #00b1dd !important
+}
+
+.ducklett-modal .ducklett-datepicker-simple .ducklett-datepicker-current--active div {
+    color: #00b1dd !important;
+    font-weight: 700 !important
+}
+
+.ducklett-modal .ducklett-datepicker-start-sausage div {
+    background: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2032%2026%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3ERectangle%2030%3C%2Ftitle%3E%3Cpath%20d%3D%22M0%201.003C0%20.45.457%200%201.002%200h30.293c.554%200%20.844.408.643.925l-9.374%2024.15c-.2.51-.803.925-1.357.925H.997C.447%2026%200%2025.55%200%2024.997V1.003z%22%20fill%3D%22%2300B1DD%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E") !important
+}
+
+.ducklett-modal .ducklett-datepicker-end-sausage div {
+    background: url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2032%2026%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3ERectangle%2030%3C%2Ftitle%3E%3Cpath%20d%3D%22M32%2024.997C32%2025.55%2031.543%2026%2030.998%2026H.705c-.554%200-.844-.408-.643-.925L9.436.925c.2-.51.803-.925%201.357-.925h20.21c.55%200%20.997.45.997%201.003v23.994z%22%20fill%3D%22%2300B1DD%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E") !important
+}
+
+.ducklett-modal .ducklett-datepicker-table .ducklett-datepicker-current, .ducklett-modal .ducklett-datepicker-table .ducklett-datepicker-next, .ducklett-modal .ducklett-datepicker-table .ducklett-datepicker-prev {
+    color: #424242 !important
+}
+
+.ducklett-modal .ducklett-datepicker-range div:after {
+    background-color: #00b1dd !important
+}
+
+.ducklett-modal .ducklett-datepicker-prev-month-control, .ducklett-modal .ducklett-datepicker-next-month-control {
+    background: 0 0 no-repeat url("data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%206%209%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3EShape%3C%2Ftitle%3E%3Cpath%20d%3D%22M5.46.517c.48.48.48%201.244.017%201.742L3.45%204.302%205.477%206.4c.462.48.462%201.263-.036%201.743-.48.48-1.26.463-1.74-.035L.854%205.138C.392%204.66.392%203.895.872%203.433L3.735.534c.23-.248.55-.373.87-.373.32%200%20.623.126.854.357z%22%20fill%3D%22%2300B1DD%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E") !important
+}
+
+.ducklett-modal-wrapper {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important
+}
+
+.ducklett-modal {
+    position: absolute !important;
+    display: none !important;
+    overflow: hidden !important;
+    z-index: 9999 !important;
+    background: #fff !important;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .3) !important
+}
