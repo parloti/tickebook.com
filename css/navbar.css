@@ -1,0 +1,9 @@
+.navbar {
+    margin-bottom: 0;
+    background: #f9c922;
+    height: 70px;
+}
+
+body {
+    padding-top: 70px !important;
+}
