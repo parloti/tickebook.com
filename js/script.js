@@ -1,51 +1,3 @@
-var toggle = document.getElementsByClassName('navbar-toggle')[0],
-	collapse = document.getElementsByClassName('navbar-collapse')[0],
-	dropdowns = document.getElementsByClassName('dropdown');
-;
-
-// Toggle if navbar menu is open or closed
-function toggleMenu() {
-	collapse.classList.toggle('collapse');
-	collapse.classList.toggle('in');
-}
-
-// Close all dropdown menus
-function closeMenus() {
-	for (var j = 0; j < dropdowns.length; j++) {
-		dropdowns[j].getElementsByClassName('dropdown-toggle')[0].classList.remove('dropdown-open');
-		dropdowns[j].classList.remove('open');
-	}
-}
-
-// Add click handling to dropdowns
-for (var i = 0; i < dropdowns.length; i++) {
-	dropdowns[i].addEventListener('click', function () {
-		if (document.body.clientWidth < 768) {
-			var open = this.classList.contains('open');
-			closeMenus();
-			if (!open) {
-				this.getElementsByClassName('dropdown-toggle')[0].classList.toggle('dropdown-open');
-				this.classList.toggle('open');
-			}
-		}
-	});
-}
-
-// Close dropdowns when screen becomes big enough to switch to open by hover
-function closeMenusOnResize() {
-	if (document.body.clientWidth >= 768) {
-		closeMenus();
-		collapse.classList.add('collapse');
-		collapse.classList.remove('in');
-	}
-}
-
-// Event listeners
-window.addEventListener('resize', closeMenusOnResize, false);
-toggle.addEventListener('click', toggleMenu, false);
-
-document.addEventListener("DOMContentLoaded", addLi);
-document.addEventListener("DOMContentLoaded", addOffer);
 function addLi() {
 	var size = document.querySelectorAll(".mewtwo-tabs_list li").length;
 	if (size === 2) {
@@ -88,21 +40,23 @@ function addLi() {
 	}
 }
 function addOffer() {
-	var size1 = document.querySelectorAll("li.xxxxx li").length;
-	var size2 = document.querySelectorAll("li.xxxxx script").length;
-	var size3 = document.querySelectorAll("li.xxxxx .ducklett-popup_wrapper").length;
+	var size1 = document.querySelectorAll("li.manual li").length;
+	var size2 = document.querySelectorAll("li.manual script").length;
+	var size3 = document.querySelectorAll("li.manual .ducklett-popup_wrapper").length;
 	
 	if (size1 === size2 && size1 === size3) {
-		document.querySelectorAll("li.xxxxx li").forEach(function (element, index) {
+		document.querySelectorAll("li.manual li").forEach(function (element, index) {
 			console.log(element, index);
 			console.log();
-			document.querySelector("ul li.xxxxx").parentNode.appendChild(element);
-			document.querySelector("ul li.xxxxx").parentNode.appendChild(document.querySelector("ul li.xxxxx .ducklett-popup_wrapper"));
-			document.querySelector("ul li.xxxxx").parentNode.appendChild(document.querySelector("ul li.xxxxx script"));
-			document.querySelector("ul li.xxxxx").parentNode.removeChild(document.querySelector("ul li.xxxxx"));
+			document.querySelector("ul li.manual").parentNode.appendChild(element);
+			document.querySelector("ul li.manual").parentNode.appendChild(document.querySelector("ul li.manual .ducklett-popup_wrapper"));
+			document.querySelector("ul li.manual").parentNode.appendChild(document.querySelector("ul li.manual script"));
+			document.querySelector("ul li.manual").parentNode.removeChild(document.querySelector("ul li.manual"));
 		})
 	}
 	else {
 		setTimeout(addOffer, 100);
 	}
 }
+document.addEventListener("DOMContentLoaded", addLi);
+document.addEventListener("DOMContentLoaded", addOffer);
