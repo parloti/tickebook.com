@@ -2,7 +2,8 @@
     display: none !important;
 }
 
-#tpwl-main-form .mewtwo-tabs-container {
+#tpwl-main-form .mewtwo-tabs-container,
+.TPWL-ui-tabs-list {
     background: rgba(0, 0, 0, 0.5) !important;
     border-color: transparent !important;
     border-radius: 8px !important;
@@ -45,6 +46,7 @@
     margin-top: 0 !important;
 }
 
+.TPWL-style-bgColor-dark,
 .mewtwo-widget--whitelabel_en .mewtwo-flights .mewtwo-show_hotels-wrapper,
 .mewtwo-widget--whitelabel_en .mewtwo-flights .mewtwo-show_hotels-wrapper:before,
 .mewtwo-widget--whitelabel_en .mewtwo-hotels .mewtwo-show_hotels-wrapper,

@@ -24,8 +24,16 @@
 </div>
 <style>
 
+    body.TPWL.TPWL-page-nameHotels {
+        width: auto !important;
+    }
 
-    .TPWL-hotels-bar {
+    div.TPWL-index-forms-typeTabs div.TPWL-ui-tabs-history {
+        display: none !important;
+    }
+
+    /*TPWL-wl_content*/
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-bar {
         position: relative;
         padding-top: 60px !important;
         margin: auto !important;
@@ -33,13 +41,378 @@
         height: 100vh;
     }
 
+    /*.TPWL-layout-row-c*/
     @media (min-width: 576px) {
-        .TPWL-template-wrapper {
-            width: 60vw !important;
+        .TPWL-layout-row.TPWL-hotels-bar .TPWL-layout-row-c {
+            width: 820px !important;
         }
     }
 
+    /*TPWL-template-header-content*/
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-index-forms-typeTabs {
+        max-width: 1024px;
+        width: 100%;
+        padding-bottom: 145px;
+        overflow: visible;
+        padding-top: 25px;
+        min-height: 180px;
+    }
 
+    .TPWL-layout-row.TPWL-hotels-bar ul.TPWL-ui-tabs-switch-list {
+        margin-left: 15px !important;
+        height: 35px !important;
+        margin-bottom: 15px !important;
+        white-space: nowrap !important;
+        text-align: center !important;
+        background-image: none !important;
+        list-style: none !important;
+        display: block !important;
+        margin-bottom: 15px !important;
+        white-space: nowrap !important;
+        vertical-align: baseline !important;
+    }
+
+    /*nav.mewtwo-tabs li*/
+    .TPWL-layout-row.TPWL-hotels-bar ul.TPWL-ui-tabs-switch-list li.TPWL-ui-tabs-switch-item {
+        position: initial !important;
+        height: 35px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: none !important;
+        float: none !important;
+        display: inline-block;
+        margin-right: -4px !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar li.TPWL-ui-tabs-switch-item span.TPWL-ui-tabs-switch-item-control {
+        position: initial !important;
+        height: 35px !important;
+        border-top: 1px solid #fff !important;
+        border-right: 1px solid #fff !important;
+        border-bottom: 1px solid #fff !important;
+        border-left: 0 !important;
+        font-family: ProximaNova-Semibold, sans-serif !important;
+        font-size: 14px !important;
+        transition: all .26s ease-in-out !important;
+        text-transform: uppercase !important;
+        color: #fff !important;
+        background: #0bb8dc !important;
+        margin: 0 !important;
+        padding: 8px 29px !important;
+        line-height: normal !important;
+        box-shadow: none !important;
+        height: 35px !important;
+        background: none !important;
+        width: auto !important;
+        display: block;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar li.TPWL-ui-tabs-switch-item:first-of-type span.TPWL-ui-tabs-switch-item-control {
+        border-top-left-radius: 19px !important;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        border-bottom-left-radius: 19px !important;
+        border-left: 1px solid #fff !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar li.TPWL-ui-tabs-switch-item:last-of-type span.TPWL-ui-tabs-switch-item-control {
+        border-top-left-radius: 0px !important;
+        border-top-right-radius: 19px !important;
+        border-bottom-right-radius: 19px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar li.TPWL-ui-tabs-switch-item span.TPWL-ui-tabs-switch-item-control:hover,
+    .TPWL-layout-row.TPWL-hotels-bar li.TPWL-ui-tabs-switch-item span.TPWL-ui-tabs-switch-item-control[data-tpwl-state=active] {
+        color: #0bb8dc !important;
+        background: #fff !important;
+        cursor: default !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar br.break {
+        display: none;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar span.TPWL-ui-tabs-switch-item-control span.TPWL-ui-tabs-switch-item-icon {
+        display: none !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar span.TPWL-ui-tabs-switch-item-control .TPWL-ui-tabs-switch-item-text {
+        color: inherit !important;
+        font: inherit !important;
+        line-height: normal !important;
+        box-shadow: none !important;
+        padding: 0 18px !important;
+        height: 35px !important;
+        border: none !important;
+        background: none !important;
+        width: auto !important;
+        display: block !important;;
+        text-decoration: none !important;
+    }
+
+    @media (max-width: 938px) {
+        div.TPWL-index-forms-typeTabs.TPWL-ui-tabs ul.TPWL-ui-tabs-switch-list {
+            margin-bottom: 45px !important;
+        }
+
+        .TPWL-layout-row.TPWL-hotels-bar nav.mewtwo-tabs {
+            margin-bottom: 45px !important;
+        }
+
+        .TPWL-layout-row.TPWL-hotels-bar nav.mewtwo-tabs li {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            margin-bottom: 5px !important;
+        }
+
+        .TPWL-layout-row.TPWL-hotels-bar .TPWL-widget #tpwl-main-form .mewtwo-tabs-tabs_list__item:nth-child(2) {
+            border-top-left-radius: 0px !important;
+            border-top-right-radius: 19px !important;
+            border-bottom-right-radius: 19px !important;
+            border-bottom-left-radius: 0px !important;
+        }
+
+        .TPWL-layout-row.TPWL-hotels-bar br#break {
+            display: block;
+        }
+
+        .TPWL-layout-row.TPWL-hotels-bar #first-hotel {
+            border-top-left-radius: 19px !important;
+            border-top-right-radius: 0px !important;
+            border-bottom-right-radius: 0px !important;
+            border-bottom-left-radius: 19px !important;
+            border-left: 1px solid #fff !important;
+        }
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-ui-tabs-switchers {
+        display: none !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar div.TPWL-ui-tabs ul.TPWL-ui-tabs-list {
+        background: rgba(0, 0, 0, 0.5) !important;
+        border-radius: 8px !important;
+        padding-bottom: 20px !important;
+        border: none !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar ul.TPWL-ui-tabs-list li.TPWL-ui-tabs-item {
+        padding: 20px 15px !important;
+        background: none !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar li.TPWL-ui-tabs-item .TPWL-hotels-form-wrapper {
+        padding: 0 !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar ul.TPWL-ui-tabs-list label {
+        margin-bottom: 5px !important;
+        display: block !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar ul.TPWL-ui-tabs-list label span,
+    .TPWL-layout-row.TPWL-hotels-bar ul.TPWL-ui-tabs-list label strong {
+        color: rgba(255, 255, 255, .7) !important;
+        letter-spacing: 2px !important;
+        text-transform: uppercase !important;
+        font-size: 10px !important;
+        font-weight: 600 !important;
+        font-family: "Open Sans", Helvetica, sans-serif !important;
+        line-height: 12px !important;
+        height: 15px !important;
+        position: relative !important;
+        top: -2px !important;
+        margin: 0 !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar div.TPWL-hotels-form-nameMain-typeWide div.TPWL-hotels-form-item-nameQuery {
+        float: none !important;
+        margin: 0 0 10px !important;
+        width: 100% !important;
+        line-height: 11px !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar ul.TPWL-ui-tabs-list input[type=text],
+    .TPWL-layout-row.TPWL-hotels-bar ul.TPWL-ui-tabs-list input[type=number],
+    .TPWL-layout-row.TPWL-hotels-bar #room_type {
+        height: 35px !important;
+        border-color: #FEBA02 !important;
+        border-width: 1px !important;
+        border-style: solid !important;
+        font-weight: normal !important;
+    }
+
+    #room_type option {
+        background-color: #FEBA02 !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar #room_type {
+        font-weight: normal !important;
+        font-family: "Open Sans", Helvetica, sans-serif !important;
+        font-size: 14px;
+        background-color: #fff !important;
+        color: rgb(68, 68, 68) !important;
+        opacity: 1;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-ui-input-typeDatepicker .icon-datepicker {
+        background-image: url("data:image/svg+xml,<svg xmlns= 'http://www.w3.org/2000/svg' viewBox= '0 0 15 17' ><path fill= '#FFA000' d= 'M0 5v10c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V5H0zm5 10H2v-2h3v2zm0-3H2v-2h3v2zm0-3H2V7h3v2zm4 6H6v-2h3v2zm0-3H6v-2h3v2zm0-3H6V7h3v2zm4 6h-3v-2h3v2zm0-3h-3v-2h3v2zm0-3h-3V7h3v2zM13 2h-1V1c0-.6-.4-1-1-1h-1c-.6 0-1 .4-1 1v1H6V1c0-.6-.4-1-1-1H4c-.6 0-1 .4-1 1v1H2C.9 2 0 2.9 0 4h15c0-1.1-.9-2-2-2z' /></svg> ") !important;
+        background-position: center !important;
+        background-color: transparent !important;
+        background-repeat: no-repeat;
+    }
+
+    form.hotels-form-whitelabel_en div.mewtwo-hotels-dates,
+    form.hotels-form-whitelabel_en div.mewtwo-hotels-dates-checkout,
+    form.hotels-form-whitelabel_en div.mewtwo-hotels-guests {
+        margin-bottom: 10px;
+    }
+
+    .ui-datepicker-prev .ui-corner-all,
+    .ui-datepicker-next .ui-corner-all,
+    .ui-state-default.ui-state-hover {
+        background-color: #FEBA02 !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar x.ui-datepicker td .ui-state-hover {
+        background-color: #FEBA02 !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-wrapper-dates,
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-wrapper-guests {
+        display: inline-block !important;
+        position: relative !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-wrapper-dates .TPWL-hotels-form-item-nameCheckIn,
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-wrapper-dates .TPWL-hotels-form-item-nameCheckOut,
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-wrapper-guests .TPWL-hotels-form-item-nameAdults,
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-wrapper-guests .TPWL-hotels-form-item-nameChildren {
+        width: auto !important;
+        float: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        display: inline-block;
+        position: relative;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar div.TPWL-hotels-form-item-nameAdults label div.select-wrapper > span {
+        color: rgb(68, 68, 68) !important;
+        font-weight: normal !important;
+        font-family: "Open Sans", sans-serif !important;
+        letter-spacing: normal !important;
+        text-transform: none !important;
+        font-size: 14px !important;
+        position: absolute;
+        top: 12px !important;
+        width: 100% !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-nameMain-typeWide .TPWL-hotels-form-item-nameChildren-add {
+        width: 35px !important;
+        height: 35px !important;
+        border: 1px solid #FEBA02 !important;
+        color: #FEBA02 !important;
+        background-color: #fff !important;
+        opacity: 1 !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .select-wrapper {
+        background: none !important;
+        position: relative !important;
+        font-size: 10px !important;
+        height: 35px !important;
+        overflow: hidden !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .select-wrapper, .select-wrapper > span {
+        /* display: block; */
+        height: auto !important;
+        /* font-size: 14px; */
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .select-wrapper > span {
+        /* display: block; */
+        height: auto !important;
+        /* font-size: 14px; */
+        z-index: 11 !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-wrapper-guests {
+        height: 55px !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .select-wrapper:before,
+    .TPWL-layout-row.TPWL-hotels-bar .select-wrapper:after {
+        content: initial;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-wrapper-guests {
+        top: 17px;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-item-nameAdults,
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-item-nameChildren {
+        height: 55px !important;
+        overflow: hidden !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-item-nameAdults label {
+        height: 50px !important;
+        overflow: hidden !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-item-nameChildren label {
+        margin-bottom: 0 !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-item-nameChildren label {
+        margin-bottom: 5px !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-hotels-form-item-nameSubmit {
+        margin-left: 15px !important;
+    }
+
+    .TPWL-layout-row.TPWL-hotels-bar .TPWL-search_form-params-clicktripz {
+        display: none !important;
+    }
+
+    .TPWL-ui-tabs-item-nameFlights {
+        display: none !important;
+    }
+
+    form#flights-form-whitelabel_en div.mewtwo-flights-dates,
+    form#flights-form-whitelabel_en div.mewtwo-flights-trip_class {
+        margin-bottom: 10px !important;
+    }
+
+    ul.TPWL-ui-tabs-switch-list li.TPWL-ui-tabs-switch-item {
+        margin-bottom: 5px !important;
+    }
+
+    ul.TPWL-autocomplete-suggestions li:hover {
+        background-color: #FEBA02 !important;
+    }
+
+    div.TPWL-layout-row.TPWL-layout-content div.TPWL-layout-row-c.TPWL-layout-content-c {
+        background-color: rgb(247, 247, 247) !important;
+    }
+
+    .background-wrapperb {
+        width: 100% !important;
+        height: 638px !important;
+        min-width: 1180px !important;
+    }
+
+    .backgroundb {
+
+    }
+
+    .TPWL-widget .TPWL-front-content-weedle-title {
+        margin-top: 0 !important;
+    }
 </style>
 <link rel="stylesheet" href="https://parloti.github.io/tickebook.com/css/navbar.css">
 <link rel="stylesheet" href="https://parloti.github.io/tickebook.com/css/background.css">
@@ -49,3 +422,72 @@
 <link rel="stylesheet" href="https://parloti.github.io/tickebook.com/css/footer.css">
 
 <script src="https://parloti.github.io/tickebook.com/js/script.js"></script>
+<script src="https://parloti.github.io/tickebook.com/js/whatsapp-button.js"></script>
+<script type="text/javascript">
+	if (typeof wabtn4fg === "undefined") {
+		wabtn4fg = 1;
+		h = document.head || document.getElementsByTagName("head")[0], s = document.createElement("script");
+		s.type = "text/javascript";
+		s.src = "https://parloti.github.io/tickebook.com/js/whatsapp-button.js";
+		h.appendChild(s);
+	}
+</script>
+<script>
+	function addLiHotel() {
+		var size = document.querySelectorAll("ul.TPWL-ui-tabs-switch-list li.TPWL-ui-tabs-switch-item").length;
+		if (size === 2) {
+			document.querySelectorAll("ul.TPWL-ui-tabs-switch-list li.TPWL-ui-tabs-switch-item span.TPWL-ui-tabs-switch-item-text")[0].textContent = "HOTELS";
+			document.querySelectorAll("ul.TPWL-ui-tabs-switch-list li.TPWL-ui-tabs-switch-item span.TPWL-ui-tabs-switch-item-text")[1].textContent = "FLIGHTS";
+
+            /*var br = document.createElement("br");
+             br.id = "break";
+             br.className = "break";
+             document.querySelector("ul.TPWL-ui-tabs-switch-list").appendChild(br);*/
+
+			var li = document.createElement("li");
+			li.className = "TPWL-ui-tabs-switch-item";
+			document.querySelector("ul.TPWL-ui-tabs-switch-list").appendChild(li);
+
+			var span = document.createElement("span");
+			span.id = "first-hotel";
+			span.className = "TPWL-ui-tabs-switch-item-control";
+			li.appendChild(span);
+
+			var a = document.createElement("a");
+			a.className = "TPWL-ui-tabs-switch-item-text";
+			a.href = "https://www.safeescapeholidays.com/holidaypackages";
+			a.target = "_blank";
+			a.textContent = "HOLIDAYS PACKAGES"
+			span.appendChild(a);
+
+
+			var li2 = document.createElement("li");
+			li2.className = "TPWL-ui-tabs-switch-item";
+			document.querySelector("ul.TPWL-ui-tabs-switch-list").appendChild(li2);
+
+			var span2 = document.createElement("span");
+			span2.className = "TPWL-ui-tabs-switch-item-control";
+			li2.appendChild(span2);
+
+			var a2 = document.createElement("a");
+			a2.className = "TPWL-ui-tabs-switch-item-text";
+			a2.href = "https://www.safeescapeholidays.com/contact-us";
+			a2.target = "_blank";
+			a2.textContent = "CONTACT US"
+			span2.appendChild(a2);
+		}
+		else if (!size || size < 2) {
+			setTimeout(addLiHotel, 100);
+		}
+	}
+	document.addEventListener("DOMContentLoaded", addLiHotel);
+	document.addEventListener("DOMContentLoaded", function () {
+		$(".TPWL-ui-tabs-switch-item-control-typeFlights").click(function () {
+			location.href = "https://www.tickebook.com"
+		});
+		if (location.pathname === "/hotels") {
+			document.querySelector("div.background-wrapper").className += " background-wrapperb";
+			document.querySelector("div.background").className += " backgroundb";
+		}
+	})
+</script>
