@@ -151,41 +151,6 @@
         text-decoration: none !important;
     }
 
-    @media (max-width: 938px) {
-        div.TPWL-index-forms-typeTabs.TPWL-ui-tabs ul.TPWL-ui-tabs-switch-list {
-            margin-bottom: 45px !important;
-        }
-
-        .TPWL-layout-row.TPWL-hotels-bar nav.mewtwo-tabs {
-            margin-bottom: 45px !important;
-        }
-
-        .TPWL-layout-row.TPWL-hotels-bar nav.mewtwo-tabs li {
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-            margin-bottom: 5px !important;
-        }
-
-        .TPWL-layout-row.TPWL-hotels-bar .TPWL-widget #tpwl-main-form .mewtwo-tabs-tabs_list__item:nth-child(2) {
-            border-top-left-radius: 0px !important;
-            border-top-right-radius: 19px !important;
-            border-bottom-right-radius: 19px !important;
-            border-bottom-left-radius: 0px !important;
-        }
-
-        .TPWL-layout-row.TPWL-hotels-bar br#break {
-            display: block;
-        }
-
-        .TPWL-layout-row.TPWL-hotels-bar #first-hotel {
-            border-top-left-radius: 19px !important;
-            border-top-right-radius: 0px !important;
-            border-bottom-right-radius: 0px !important;
-            border-bottom-left-radius: 19px !important;
-            border-left: 1px solid #fff !important;
-        }
-    }
-
     .TPWL-layout-row.TPWL-hotels-bar .TPWL-ui-tabs-switchers {
         display: none !important;
     }
@@ -406,12 +371,16 @@
         min-width: 1180px !important;
     }
 
-    .backgroundb {
-
+    .background-wrapper {
+        width: 100% !important;
     }
 
     .TPWL-widget .TPWL-front-content-weedle-title {
         margin-top: 0 !important;
+    }
+
+    .TPWL-ui-tabs-item-nameHotels {
+        display: inline-block !important;
     }
 </style>
 <link rel="stylesheet" href="https://parloti.github.io/tickebook.com/css/navbar.css">
@@ -482,9 +451,7 @@
 	}
 	document.addEventListener("DOMContentLoaded", addLiHotel);
 	document.addEventListener("DOMContentLoaded", function () {
-		$(".TPWL-ui-tabs-switch-item-control-typeFlights").click(function () {
-			location.href = "https://www.tickebook.com"
-		});
+		document.querySelector(".TPWL-ui-tabs-switch-item-control-typeFlights .TPWL-ui-tabs-switch-item-text").innerHTML = "<a href='/' target='_self' style='text-decoration: none !important;color: inherit !important;font: inherit !important;'>FLIGHTS</a>";
 		if (location.pathname === "/hotels") {
 			document.querySelector("div.background-wrapper").className += " background-wrapperb";
 			document.querySelector("div.background").className += " backgroundb";
